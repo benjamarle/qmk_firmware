@@ -36,5 +36,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 // WS2812 RGB LED strip input and number of LEDs
-#define RGB_DI_PIN D3
-#define RGBLED_NUM 12
+//#define RGB_DI_PIN D3
+//#define RGBLED_NUM 12
+
+
+#define USE_SERIAL
+#define SPLIT_HAND_MATRIX_GRID B6, B4
+#define MATRIX_MASKED
+#define SPLIT_HAND_MATRIX_GRID_LOW_IS_RIGHT
+#define TAPPING_TOGGLE 2

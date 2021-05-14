@@ -1,4 +1,5 @@
 #include "5x7.h"
+#define SOFT_SERIAL_PIN D3 
 
 
 #ifdef SSD1306OLED
